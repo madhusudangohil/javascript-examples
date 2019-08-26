@@ -12,7 +12,7 @@ class tempSensor extends EventEmitter {
 const t = new tempSensor();
 
 t.on("tempChange", () => {
-  console.log("temp changed");
+  console.log("temp changed nice");
 });
 
 t.temperatureChange();
